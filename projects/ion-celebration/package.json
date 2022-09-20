@@ -1,20 +1,27 @@
 {
   "name": "ion-celebration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ionic 6 Celebration component using Angular",
   "author": "Najam Us Saqib",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saqib92/ion-celebration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saqib92/ion-celebration/issues"
+  },
   "keywords": [
     "Ionic",
     "Ionic 5",
     "Ionic 6",
     "Ionic Framework",
     "Angular",
-    "baloons",
-    "Stars",
     "Celebration",
-    "Component",
-    "Hearts"
+    "Animations",
+    "Hearts",
+    "Stars",
+    "Component"
   ],
   "peerDependencies": {
     "@angular/common": "^14.0.0",

@@ -1,6 +1,28 @@
 {
   "name": "celebration-workspace",
-  "version": "0.0.0",
+  "version": "1.0.1",
+  "description": "Ionic 6 Celebration component using Angular",
+  "author": "Najam Us Saqib",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saqib92/ion-celebration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saqib92/ion-celebration/issues"
+  },
+  "keywords": [
+    "Ionic",
+    "Ionic 5",
+    "Ionic 6",
+    "Ionic Framework",
+    "Angular",
+    "Celebration",
+    "Animations",
+    "Hearts",
+    "Stars",
+    "Component"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
