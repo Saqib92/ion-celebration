@@ -1,7 +1,42 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ion-celebration": {
+      "projectType": "library",
+      "root": "projects/ion-celebration",
+      "sourceRoot": "projects/ion-celebration/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ion-celebration/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ion-celebration/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ion-celebration/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ion-celebration/src/test.ts",
+            "tsConfig": "projects/ion-celebration/tsconfig.spec.json",
+            "karmaConfig": "projects/ion-celebration/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ion-celebration"
 }
